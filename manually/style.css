@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+    background-image: url('bgpic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+ /* main div */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ /* --------- div class (one, two and three) sequentially-------- */
+.one{
+    height: 40vh;
+    width: 60vh;
+    background-color: #C3BFBE;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 12px 10px 20px 12px rgba(0, 0, 30, 0.6);  /* box shadow on the div */
+}
+
+.one:hover{
+    box-shadow: 5px 10px 55px 15px rgba(0, 0, 80, 40);      /* box shadow(hover) */
+}
+
+.two{
+    height: 35vh;
+    width: 55vh;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 15px;
+    top: 2vh;
+    left: 2vh;
+    position: relative;
+}
+
+.three{
+    height: 30vh;
+    width: 50vh;
+    background-color: #4C49F7;
+    border-style: dotted;
+    top: 2vh;
+    left: 2vh;
+    position: relative;
+}
+
+/* ----------- main div class(clock). to display the clock ------------- */
+.clock{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    top: 15vh;
+    color: white;
+    font-size: 35px;
+    transition: all 500ms ease-in-out;
+}
+
+.clock:hover{
+    font-size: 52px;                              
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.4);
+}

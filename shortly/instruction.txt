@@ -1,0 +1,18 @@
+
+This is a simple process to build a clock.
+
+This is a simple clock made by HTML, CSS, Javascript.
+
+The clock mainly build by js attribute- new Date(). then others function call to disply others.
+
+In this project:-
+HTML = use div, class, id, span. div class(main, one, two, three, clock) for style. span id(total) for js use.
+
+CSS  = display the style(element position, shadow, hover, color etc).
+
+js   = behind the logic of clock. new Date() = the full date. 
+       then we use toLocaleString() with 12 hrs formate to display the fulltime. 
+       main code = (fullDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
+
+
+Thank you.

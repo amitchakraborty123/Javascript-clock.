@@ -1,0 +1,17 @@
+
+This is a simple clock made by HTML, CSS, Javascript.
+
+The clock mainly build by js attribute- new Date(). then others function call to disply others.
+
+In this project:-
+HTML = use div, class, id, span. div class(main, one, two, three, clock) for style. span id(hour, minute, second) for js use.
+
+CSS  = display the style(element position, shadow, hover, color etc).
+
+js   = behind the logic of clock. new Date() = the full date. 
+       then we use getHours() = hours; getMinutes() = minutes; getSeconds() = second. 
+       var ampm = to set am/pm the clock. then add '0' before single digit and colon for separate. 
+       then setInterval() = to refresh the clock.
+
+
+Thank you.
