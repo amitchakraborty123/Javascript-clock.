@@ -1,3 +1,5 @@
 # Javascript-clock.
 
-#A simple javascript project.
+# A-small-javascript-project.
+
+Language use- HTML, CSS, Javascript.
